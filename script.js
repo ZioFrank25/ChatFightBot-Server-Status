@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
       statusElement.textContent = '✖️ OFFLINE ✖️';
       statusElement.className = 'status offline';
     } else if (botStatus === 'warning') {
-      statusElement.textContent = '⚠ ONLINE ONLINE BUT POSSIBLE PROBLEMS IN MINIGAMES ⚠';
+      statusElement.textContent = '⚠ ONLINE BUT POSSIBLE PROBLEMS IN MINIGAMES ⚠';
       statusElement.className = 'status warning';
     }
   }, 1000); // Simula il tempo di risposta
