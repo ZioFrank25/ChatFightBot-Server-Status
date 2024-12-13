@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // Simula una chiamata API per verificare lo stato del bot
   setTimeout(() => {
     // Cambia questa variabile per testare gli stati
-    const botStatus = 'offline'; // Possibili valori: 'online', 'offline', 'warning'
+    const botStatus = 'warning'; // Possibili valori: 'online', 'offline', 'warning'
 
     if (botStatus === 'online') {
       statusElement.textContent = '✔️ ONLINE ✔️';
@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
       statusElement.textContent = '✖️ OFFLINE ✖️';
       statusElement.className = 'status offline';
     } else if (botStatus === 'warning') {
-      statusElement.textContent = '⚠ ONLINE WITH POSSIBLE PROBLEMS ⚠';
+      statusElement.textContent = '⚠ ONLINE ONLINE BUT POSSIBLE PROBLEMS IN MINIGAMES ⚠';
       statusElement.className = 'status warning';
     }
   }, 1000); // Simula il tempo di risposta
