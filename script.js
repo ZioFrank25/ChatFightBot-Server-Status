@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // Simula una chiamata API per verificare lo stato del bot
   setTimeout(() => {
     // Cambia questa variabile per testare gli stati
-    const botStatus = 'warning'; // Possibili valori: 'online', 'offline', 'warning'
+    const botStatus = 'online'; // Possibili valori: 'online', 'offline', 'warning'
 
     if (botStatus === 'online') {
       statusElement.textContent = '✔️ ONLINE ✔️';
